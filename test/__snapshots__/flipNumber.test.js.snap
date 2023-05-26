@@ -1,0 +1,123 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FlipNumber should render correctly 1`] = `
+<span
+  aria-hidden={true}
+  style={
+    Object {
+      "display": "inline-block",
+      "height": 20,
+      "overflow": "hidden",
+      "perspective": "1000px",
+      "textAlign": "left",
+      "width": "20px",
+    }
+  }
+>
+  <Animate
+    easeType="cubic-bezier(0.19, 1, 0.22, 1)"
+    end={
+      Object {
+        "height": "100%",
+        "position": "absolute",
+        "transform": "rotateX(0deg)",
+        "transformStyle": "preserve-3d",
+      }
+    }
+    render={[Function]}
+    start={
+      Object {
+        "height": "100%",
+        "position": "absolute",
+        "transformStyle": "preserve-3d",
+      }
+    }
+    tag="span"
+  />
+  <span
+    data={NaN}
+    style={
+      Object {
+        "WebkitFontSmoothing": "antialiased",
+        "alignItems": "center",
+        "background": "black",
+        "color": "white",
+        "display": "flex",
+        "fontSize": "19px",
+        "height": 20,
+        "justifyContent": "center",
+        "left": "0px",
+        "lineHeight": "20px",
+        "position": "absolute",
+        "textAlign": "center",
+        "transform": "rotateX(0deg) translateZ(30px)",
+        "visibility": "hidden",
+        "width": "20px",
+      }
+    }
+  >
+    0
+  </span>
+</span>
+`;
+
+exports[`FlipNumber should return the correct position for matching number 1`] = `
+<span
+  aria-hidden={true}
+  style={
+    Object {
+      "display": "inline-block",
+      "height": 20,
+      "overflow": "hidden",
+      "perspective": "1000px",
+      "textAlign": "left",
+      "width": "20px",
+    }
+  }
+>
+  <Animate
+    easeType="cubic-bezier(0.19, 1, 0.22, 1)"
+    end={
+      Object {
+        "height": "100%",
+        "position": "absolute",
+        "transform": "rotateX(-72deg)",
+        "transformStyle": "preserve-3d",
+      }
+    }
+    render={[Function]}
+    start={
+      Object {
+        "height": "100%",
+        "position": "absolute",
+        "transformStyle": "preserve-3d",
+      }
+    }
+    tag="span"
+  />
+  <span
+    data={NaN}
+    style={
+      Object {
+        "WebkitFontSmoothing": "antialiased",
+        "alignItems": "center",
+        "background": "black",
+        "color": "white",
+        "display": "flex",
+        "fontSize": "19px",
+        "height": 20,
+        "justifyContent": "center",
+        "left": "0px",
+        "lineHeight": "20px",
+        "position": "absolute",
+        "textAlign": "center",
+        "transform": "rotateX(0deg) translateZ(30px)",
+        "visibility": "hidden",
+        "width": "20px",
+      }
+    }
+  >
+    2
+  </span>
+</span>
+`;
